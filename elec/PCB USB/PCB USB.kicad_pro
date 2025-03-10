@@ -404,6 +404,7 @@
       "bus_entry_needed": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
@@ -619,6 +620,18 @@
     [
       "3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2",
       "Root"
+    ],
+    [
+      "a82272da-9ed6-4546-8d28-7ae58c53d04c",
+      "MCU"
+    ],
+    [
+      "ec4eefdc-91d1-45af-83cc-d07ba33a5116",
+      "Power"
+    ],
+    [
+      "fcff0706-74bc-4985-8f57-d0637fffe27b",
+      "USB_HUB"
     ]
   ],
   "text_variables": {}
