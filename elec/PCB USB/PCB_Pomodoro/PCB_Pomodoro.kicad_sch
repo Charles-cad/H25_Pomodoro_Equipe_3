@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "56b00a48-4ad8-4511-ac86-2ef4f03d598f")
+	(paper "A4")
+	(title_block
+		(title "Pomodoro USB Hub Framework")
+		(date "2025-03-10")
+		(rev "1.0")
+		(comment 4 "By : Charles-Ariel Dion & Jacob Turcotte")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
