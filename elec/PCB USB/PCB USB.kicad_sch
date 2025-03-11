@@ -12,6 +12,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 114.3 19.05)
+		(size 73.66 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3852fb4a-c6a8-4202-9995-c1f4931c97ba")
+		(property "Sheetname" "Output_Input"
+			(at 114.3 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output_Input.kicad_sch"
+			(at 114.3 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB USB"
+				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 19.05)
 		(size 72.39 44.45)
 		(exclude_from_sim no)
