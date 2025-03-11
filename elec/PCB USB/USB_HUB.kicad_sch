@@ -7570,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JT_USB_C_PLUG2-0:UP20-C-F-G-FL-1-P12-TR"
+		(property "Footprint" "JT_USB_C:UP20-C-F-G-FL-1-P12-TR"
 			(at 26.67 69.85 0)
 			(effects
 				(font
