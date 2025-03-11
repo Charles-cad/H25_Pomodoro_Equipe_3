@@ -8553,7 +8553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 120.015 95.885 0)
 			(effects
 				(font
@@ -8895,7 +8895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.635 95.885 0)
 			(effects
 				(font
@@ -9355,7 +9355,7 @@
 		(dnp no)
 		(uuid "c97c0cdc-46b3-43fb-ae15-58425077fc19")
 		(property "Reference" "D403"
-			(at 191.516 95.758 0)
+			(at 190.246 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
