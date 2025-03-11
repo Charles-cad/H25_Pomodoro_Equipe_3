@@ -4620,9 +4620,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "M_Conn_LEFT"
+	(text "Encodeur"
 		(exclude_from_sim no)
-		(at 341.376 79.248 0)
+		(at 338.582 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,18 +4642,6 @@
 			(justify left)
 		)
 		(uuid "1d076e9e-c3ea-4da4-b5bc-1fef92edf630")
-	)
-	(text "M_Conn_RIGHT"
-		(exclude_from_sim no)
-		(at 343.408 102.362 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "29ed3fdc-623a-4a06-802d-540e5095ed8b")
 	)
 	(text "10"
 		(exclude_from_sim no)
@@ -4740,7 +4728,7 @@
 		)
 		(uuid "7f6a9874-091d-45aa-ae0b-81412a0463cf")
 	)
-	(text "I2C_1"
+	(text "I2C_0"
 		(exclude_from_sim no)
 		(at 337.058 65.278 0)
 		(effects
@@ -4851,7 +4839,7 @@
 		)
 		(uuid "ac019411-a9f9-49e2-8d73-65b4ffcb9433")
 	)
-	(text "I2C_0"
+	(text "I2C_1\n"
 		(exclude_from_sim no)
 		(at 337.058 60.198 0)
 		(effects
@@ -4908,7 +4896,7 @@
 	)
 	(text "Unused"
 		(exclude_from_sim no)
-		(at 339.852 132.334 0)
+		(at 339.344 114.808 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5849,6 +5837,16 @@
 		)
 		(uuid "0d81f5b8-90bd-49d5-b109-d2c1d176c03d")
 	)
+	(bus
+		(pts
+			(xy 322.58 76.2) (xy 322.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb81777-7263-47ea-99cd-528a9596302a")
+	)
 	(wire
 		(pts
 			(xy 295.91 157.48) (xy 320.04 157.48)
@@ -5908,6 +5906,16 @@
 			(type default)
 		)
 		(uuid "12f5d19d-b05d-4356-86ea-860f77e11af7")
+	)
+	(bus
+		(pts
+			(xy 322.58 106.68) (xy 322.58 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c54acd-83f1-49b8-9cb3-2191ce70c254")
 	)
 	(wire
 		(pts
@@ -6269,6 +6277,16 @@
 		)
 		(uuid "39a7165b-3bd6-4481-9a7c-30026ffe58d6")
 	)
+	(bus
+		(pts
+			(xy 322.58 114.3) (xy 322.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a89c9c-1ceb-46f0-8f4c-165a4540866a")
+	)
 	(wire
 		(pts
 			(xy 295.91 160.02) (xy 320.04 160.02)
@@ -6569,6 +6587,16 @@
 		)
 		(uuid "5e729221-42d0-45fb-83a9-a51001036985")
 	)
+	(bus
+		(pts
+			(xy 322.58 78.74) (xy 322.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e96fb8b-bfd6-487b-b97b-3cceef59dc57")
+	)
 	(wire
 		(pts
 			(xy 52.07 29.21) (xy 52.07 34.29)
@@ -6759,16 +6787,6 @@
 		)
 		(uuid "6cf57dda-10fa-4627-bffd-d4e29dad1392")
 	)
-	(bus
-		(pts
-			(xy 322.58 81.28) (xy 322.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8d101e-e2fd-4535-b9fa-38fd175d6203")
-	)
 	(wire
 		(pts
 			(xy 295.91 149.86) (xy 320.04 149.86)
@@ -6939,6 +6957,16 @@
 		)
 		(uuid "7e98caff-d4bd-40be-a27d-a156439857af")
 	)
+	(bus
+		(pts
+			(xy 322.58 81.28) (xy 322.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f94671e-e4c6-4746-917f-e9c6066fdaaa")
+	)
 	(wire
 		(pts
 			(xy 46.99 34.29) (xy 52.07 34.29)
@@ -7071,13 +7099,13 @@
 	)
 	(bus
 		(pts
-			(xy 322.58 76.2) (xy 322.58 78.74)
+			(xy 322.58 88.9) (xy 322.58 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "880ffc66-b36e-4be2-a4ed-1fe4a16c53b3")
+		(uuid "87e8fd08-f85a-4aac-a9d5-518f15ab6402")
 	)
 	(bus
 		(pts
@@ -7569,16 +7597,6 @@
 		)
 		(uuid "b9291c67-007e-4eff-871c-2d066099eb0c")
 	)
-	(bus
-		(pts
-			(xy 322.58 73.66) (xy 322.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc28aa14-4ce6-4760-8c83-5f6ff5de945e")
-	)
 	(wire
 		(pts
 			(xy 153.67 52.07) (xy 153.67 48.26)
@@ -7688,16 +7706,6 @@
 			(type default)
 		)
 		(uuid "c6cfe53c-629f-41aa-9b81-0ac001efe6f2")
-	)
-	(bus
-		(pts
-			(xy 322.58 71.12) (xy 322.58 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8129cb9-64b5-4d72-8f96-38ad302bd50b")
 	)
 	(wire
 		(pts
@@ -7961,7 +7969,7 @@
 	)
 	(bus
 		(pts
-			(xy 322.58 78.74) (xy 322.58 81.28)
+			(xy 322.58 71.12) (xy 322.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8228,16 +8236,6 @@
 			(type default)
 		)
 		(uuid "f47eea83-16c0-4b28-a3b1-2dc1bef34316")
-	)
-	(bus
-		(pts
-			(xy 322.58 104.14) (xy 322.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b5f866-5f65-4fad-a15f-21064971f00d")
 	)
 	(wire
 		(pts
@@ -9020,6 +9018,17 @@
 		)
 		(uuid "2ee7fa88-3338-4b1f-a556-78847b0822cb")
 	)
+	(hierarchical_label "GPIO[9..47]"
+		(shape input)
+		(at 322.58 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "876d400a-1e64-487b-9753-0e630b0d518d")
+	)
 	(hierarchical_label "GPIO[2..3]"
 		(shape input)
 		(at 322.58 59.69 0)
@@ -9030,28 +9039,6 @@
 			(justify left)
 		)
 		(uuid "8b386ad2-f6af-44c6-916d-e18728abf5af")
-	)
-	(hierarchical_label "GPIO[24..47]"
-		(shape input)
-		(at 322.58 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9f264ce-92a0-4914-8005-9d32c6747fa0")
-	)
-	(hierarchical_label "GPIO[15..23]"
-		(shape input)
-		(at 322.58 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da64503b-4c7c-4e25-b996-f189336f7202")
 	)
 	(hierarchical_label "GPIO[4..5]"
 		(shape input)
@@ -9064,9 +9051,9 @@
 		)
 		(uuid "f45b4b7d-46c7-4c4a-9a71-fa9568f830b0")
 	)
-	(hierarchical_label "GPIO[6..14]"
+	(hierarchical_label "GPIO[6..8]"
 		(shape input)
-		(at 322.58 78.74 0)
+		(at 322.58 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9084,7 +9071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01080e3e-ee8b-4c58-bdac-926187c7f7a2")
-		(property "Reference" "C3"
+		(property "Reference" "C203"
 			(at 147.32 38.1 90)
 			(effects
 				(font
@@ -9147,7 +9134,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C3")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -9162,7 +9149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "01e98e61-c18c-4517-ada2-fa7619e8a626")
-		(property "Reference" "R2"
+		(property "Reference" "R202"
 			(at 60.452 34.798 90)
 			(effects
 				(font
@@ -9216,72 +9203,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 90.17 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10690103-818c-4670-bc64-a006294c1c7a")
-		(property "Reference" "#PWR04"
-			(at 90.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_USB_5V"
-			(at 90.17 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 90.17 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1660b94-c3b3-493f-a736-84d6cd520ae4")
-		)
-		(instances
-			(project "PCB USB"
-				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR04")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -9297,7 +9219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1db0483c-81f3-4332-a9c8-02330996c8dc")
-		(property "Reference" "C18"
+		(property "Reference" "C218"
 			(at 406.4 50.8 0)
 			(effects
 				(font
@@ -9360,7 +9282,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C18")
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -9376,7 +9298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20aeab86-8d03-4963-adf0-8b30aa3a2670")
-		(property "Reference" "C16"
+		(property "Reference" "C216"
 			(at 208.026 50.038 0)
 			(effects
 				(font
@@ -9439,7 +9361,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C16")
+					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -9455,7 +9377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30882f64-e344-4a31-9161-19fb5a9d2203")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0207"
 			(at 110.49 33.02 0)
 			(effects
 				(font
@@ -9505,7 +9427,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR07")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -9520,7 +9442,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31b14932-9870-47b3-97a2-d97ab8775c96")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0210"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -9570,7 +9492,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR010")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -9586,7 +9508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44046a3f-8cf6-423b-8f1f-e0e81bb25eed")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0224"
 			(at 398.78 33.02 0)
 			(effects
 				(font
@@ -9636,7 +9558,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR024")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -9651,7 +9573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48c896e9-6674-4d12-a789-2a0674e4fbca")
-		(property "Reference" "R8"
+		(property "Reference" "R208"
 			(at 371.0432 35.6616 0)
 			(effects
 				(font
@@ -9714,7 +9636,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R8")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -9729,7 +9651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cc7ea42-8bcb-4ad3-a009-70093ac92608")
-		(property "Reference" "C5"
+		(property "Reference" "C205"
 			(at 147.32 45.72 90)
 			(effects
 				(font
@@ -9792,7 +9714,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C5")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -9808,7 +9730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cd5148a-80f4-4287-b843-b794a7b8277a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0208"
 			(at 138.43 33.02 0)
 			(effects
 				(font
@@ -9858,7 +9780,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR08")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -9874,7 +9796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4eea31c4-44fd-4c0a-8b55-f459ad923858")
-		(property "Reference" "U3"
+		(property "Reference" "U203"
 			(at 373.38 41.91 0)
 			(effects
 				(font
@@ -9966,7 +9888,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "U3")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -9982,7 +9904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6041435b-f497-4169-bdbd-90e3071ee740")
-		(property "Reference" "R3"
+		(property "Reference" "R203"
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -10045,7 +9967,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R3")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -10060,7 +9982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "604e4baf-46c6-41cf-937e-eb1df21b3042")
-		(property "Reference" "C10"
+		(property "Reference" "C210"
 			(at 147.32 76.2 90)
 			(effects
 				(font
@@ -10123,7 +10045,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C10")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -10138,7 +10060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "64a7fa52-e255-42cc-a2e9-b4f6b49ba250")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0216"
 			(at 212.09 33.02 0)
 			(effects
 				(font
@@ -10188,7 +10110,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR016")
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -10204,7 +10126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65087701-a6ea-4f0a-bbec-05e5c176f602")
-		(property "Reference" "C17"
+		(property "Reference" "C217"
 			(at 397.51 50.8 0)
 			(effects
 				(font
@@ -10267,7 +10189,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C17")
+					(reference "C217")
 					(unit 1)
 				)
 			)
@@ -10282,7 +10204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7461fbe1-356e-4eab-825d-58596a442e9f")
-		(property "Reference" "C1"
+		(property "Reference" "C201"
 			(at 147.32 30.48 90)
 			(effects
 				(font
@@ -10345,7 +10267,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C1")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -10361,7 +10283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e82f71-2864-41f3-a682-cea430ae519a")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0206"
 			(at 105.41 33.02 0)
 			(effects
 				(font
@@ -10411,7 +10333,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR06")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -10426,7 +10348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c75b547-3eeb-4420-b0fe-304b3fdd1337")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR0221"
 			(at 261.62 185.42 0)
 			(effects
 				(font
@@ -10476,7 +10398,72 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR021")
+					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 90.17 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e723600-9bf5-46f0-ac88-f998500ed173")
+		(property "Reference" "#PWR0204"
+			(at 90.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 90.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 90.17 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71dd8c8-678e-4dfe-b33a-22f17de53948")
+		)
+		(instances
+			(project "PCB USB"
+				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -10491,7 +10478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83e0a687-28fe-4fd2-867c-323c77c964fd")
-		(property "Reference" "R5"
+		(property "Reference" "R205"
 			(at 227.33 34.29 0)
 			(effects
 				(font
@@ -10543,7 +10530,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R5")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -10558,7 +10545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "841f317c-4c9d-4ae0-9436-d3f3ee5b84bd")
-		(property "Reference" "SW2"
+		(property "Reference" "SW202"
 			(at 186.69 101.6 0)
 			(effects
 				(font
@@ -10630,7 +10617,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "SW2")
+					(reference "SW202")
 					(unit 1)
 				)
 			)
@@ -10645,7 +10632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8655a1dc-4b6c-431c-95d7-fd7cd4823789")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR0218"
 			(at 223.52 101.6 0)
 			(effects
 				(font
@@ -10695,7 +10682,72 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR018")
+					(reference "#PWR0218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 48.26 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89430577-6019-41c1-a124-53fa801ef8a2")
+		(property "Reference" "#PWR0202"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 48.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e79f5151-36b7-4254-85b7-e927a97f6a3a")
+		)
+		(instances
+			(project "PCB USB"
+				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -10710,7 +10762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b168eca-863a-492d-89ea-82bbaf16ae39")
-		(property "Reference" "C9"
+		(property "Reference" "C209"
 			(at 147.32 60.96 90)
 			(effects
 				(font
@@ -10773,7 +10825,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C9")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -10788,7 +10840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc2d841-5353-4bda-93ea-09ef9e97041e")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR0220"
 			(at 237.49 33.02 0)
 			(effects
 				(font
@@ -10838,7 +10890,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR020")
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -10853,7 +10905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c8cd1cb-d21c-4a25-b68d-bfb2ff67b72d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR0215"
 			(at 205.74 101.6 0)
 			(effects
 				(font
@@ -10903,7 +10955,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR015")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -10919,7 +10971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e389420-eae0-4dca-b9ec-ba857419629d")
-		(property "Reference" "U2"
+		(property "Reference" "U202"
 			(at 263.7633 179.07 0)
 			(effects
 				(font
@@ -11210,7 +11262,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "U2")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -11225,7 +11277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90898abf-262c-4210-a683-e80b184f1157")
-		(property "Reference" "L1"
+		(property "Reference" "L201"
 			(at 216.154 34.036 0)
 			(effects
 				(font
@@ -11279,7 +11331,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "L1")
+					(reference "L201")
 					(unit 1)
 				)
 			)
@@ -11294,7 +11346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92c718b9-ad2c-419a-ab30-9bff43669416")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0223"
 			(at 369.57 33.02 0)
 			(effects
 				(font
@@ -11344,7 +11396,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR023")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -11359,7 +11411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96fa7d01-683b-46d8-9e20-e2a50f5c5ad2")
-		(property "Reference" "C8"
+		(property "Reference" "C208"
 			(at 147.32 57.15 90)
 			(effects
 				(font
@@ -11422,7 +11474,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C8")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -11437,7 +11489,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2413b0-e972-4e4b-8e13-b79cb4b427ff")
-		(property "Reference" "C12"
+		(property "Reference" "C212"
 			(at 147.32 83.82 90)
 			(effects
 				(font
@@ -11500,7 +11552,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C12")
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -11515,7 +11567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e99d739-7be6-46ce-92ca-674725f62b74")
-		(property "Reference" "C14"
+		(property "Reference" "C214"
 			(at 209.55 85.09 90)
 			(effects
 				(font
@@ -11578,7 +11630,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C14")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -11594,7 +11646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3bc3c78-5752-4681-a989-fa35cebbd2cb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR0214"
 			(at 200.66 96.52 0)
 			(effects
 				(font
@@ -11644,7 +11696,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR014")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -11659,7 +11711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6e7ee53-937f-43d1-930b-37398d1c261a")
-		(property "Reference" "C6"
+		(property "Reference" "C206"
 			(at 147.32 49.53 90)
 			(effects
 				(font
@@ -11722,7 +11774,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C6")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -11737,7 +11789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8957078-db3e-4f26-87e7-b16a2252e19e")
-		(property "Reference" "SW1"
+		(property "Reference" "SW201"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -11809,72 +11861,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 48.26 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "afa322f8-1042-46b3-a357-5a39cd6cb8ea")
-		(property "Reference" "#PWR02"
-			(at 48.26 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS_USB_5V"
-			(at 48.26 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 48.26 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2336614f-7fc9-452b-b768-caf6e9583a08")
-		)
-		(instances
-			(project "PCB USB"
-				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR02")
+					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -11890,7 +11877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b44dac3e-433e-4bc8-8dee-00debcc86288")
-		(property "Reference" "C15"
+		(property "Reference" "C215"
 			(at 209.55 92.71 90)
 			(effects
 				(font
@@ -11953,7 +11940,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C15")
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -11969,7 +11956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c981c0-e24a-4376-9968-65c6ac3e187c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0209"
 			(at 138.43 78.74 0)
 			(effects
 				(font
@@ -12019,7 +12006,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR09")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -12034,7 +12021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b88fe89e-5971-49f8-a097-f368bf4af2da")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0205"
 			(at 90.17 64.77 0)
 			(effects
 				(font
@@ -12084,7 +12071,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR05")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -12100,7 +12087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb0a192e-9f2f-44cb-ae05-fcb48a8d7e3a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR0213"
 			(at 177.8 111.76 0)
 			(effects
 				(font
@@ -12150,7 +12137,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR013")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -12165,7 +12152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbd72688-9202-482d-b9b5-afc5ce36e6ec")
-		(property "Reference" "C4"
+		(property "Reference" "C204"
 			(at 147.32 41.91 90)
 			(effects
 				(font
@@ -12228,7 +12215,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C4")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -12244,7 +12231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc7ca3e7-a7b4-442b-8464-0663921f347d")
-		(property "Reference" "J1"
+		(property "Reference" "J201"
 			(at 31.75 21.59 0)
 			(effects
 				(font
@@ -12341,7 +12328,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "J1")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -12357,7 +12344,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfeee9e6-522e-402b-99f9-f4f20dda4666")
-		(property "Reference" "R4"
+		(property "Reference" "R204"
 			(at 202.946 63.246 90)
 			(effects
 				(font
@@ -12420,7 +12407,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R4")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -12435,7 +12422,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c80e32c1-ecfd-4b5f-a7e8-6901c82e1a01")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0217"
 			(at 212.09 60.96 0)
 			(effects
 				(font
@@ -12485,7 +12472,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR017")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -12500,7 +12487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca9d9eb0-4c92-407f-9102-efffcbd40a20")
-		(property "Reference" "R7"
+		(property "Reference" "R207"
 			(at 307.594 45.72 90)
 			(effects
 				(font
@@ -12552,7 +12539,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R7")
+					(reference "R207")
 					(unit 1)
 				)
 			)
@@ -12567,7 +12554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbc3421f-c499-44df-8aea-9c395dd5b394")
-		(property "Reference" "C11"
+		(property "Reference" "C211"
 			(at 147.32 80.01 90)
 			(effects
 				(font
@@ -12630,7 +12617,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C11")
+					(reference "C211")
 					(unit 1)
 				)
 			)
@@ -12645,7 +12632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d262dba6-1124-428a-8413-7a52cbb9da27")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0201"
 			(at 27.94 76.2 0)
 			(effects
 				(font
@@ -12695,7 +12682,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR01")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -12710,7 +12697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d29b61d1-7e12-4db1-b68a-2746315f6ee8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0211"
 			(at 153.67 92.71 0)
 			(effects
 				(font
@@ -12760,7 +12747,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR011")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -12775,7 +12762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2e2d9d7-2e45-4cfd-9f17-078e8a56d02d")
-		(property "Reference" "C13"
+		(property "Reference" "C213"
 			(at 147.32 87.63 90)
 			(effects
 				(font
@@ -12838,7 +12825,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C13")
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -12853,7 +12840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d83e7e74-6068-4283-9c86-e56ed1a6be45")
-		(property "Reference" "C2"
+		(property "Reference" "C202"
 			(at 147.32 34.29 90)
 			(effects
 				(font
@@ -12916,7 +12903,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C2")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -12932,7 +12919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dddf7dbb-41d7-49a5-b2fa-f1625e38de15")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0212"
 			(at 176.53 68.58 0)
 			(effects
 				(font
@@ -12982,7 +12969,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR012")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -12997,7 +12984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2c9a090-5496-40c9-856e-4dc4a0ccb78b")
-		(property "Reference" "U1"
+		(property "Reference" "U201"
 			(at 95.25 34.29 0)
 			(effects
 				(font
@@ -13063,7 +13050,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "U1")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -13078,7 +13065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e457ec37-498c-4fc8-bfae-313acf281dd1")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0222"
 			(at 265.43 33.02 0)
 			(effects
 				(font
@@ -13128,7 +13115,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR022")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -13143,7 +13130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5fede68-f23b-4b63-a72e-604598c831fc")
-		(property "Reference" "C7"
+		(property "Reference" "C207"
 			(at 147.32 53.34 90)
 			(effects
 				(font
@@ -13206,7 +13193,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "C7")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -13221,7 +13208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edf322d8-63a4-4bf7-861a-3fad1f7b77f5")
-		(property "Reference" "Y1"
+		(property "Reference" "Y201"
 			(at 219.202 87.63 90)
 			(effects
 				(font
@@ -13300,7 +13287,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "Y1")
+					(reference "Y201")
 					(unit 1)
 				)
 			)
@@ -13315,7 +13302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef1cbd0b-c405-4de9-a70c-fbb26543a29c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR0219"
 			(at 224.79 33.02 0)
 			(effects
 				(font
@@ -13365,7 +13352,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR019")
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -13380,7 +13367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f76f9a23-ddeb-4a61-a0b0-c555d1f519cd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0225"
 			(at 398.78 66.04 0)
 			(effects
 				(font
@@ -13430,7 +13417,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR025")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -13445,7 +13432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f800af37-54d0-41f0-aba9-866c86c361d2")
-		(property "Reference" "R6"
+		(property "Reference" "R206"
 			(at 307.594 38.1 90)
 			(effects
 				(font
@@ -13497,7 +13484,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R6")
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -13512,7 +13499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbb0db9c-a7ad-42a8-9332-d9ca0fd56ed9")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0203"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -13562,7 +13549,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "#PWR03")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -13577,7 +13564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc4e2038-da49-4c47-9e75-dfe9519c55b4")
-		(property "Reference" "R1"
+		(property "Reference" "R201"
 			(at 60.198 26.924 90)
 			(effects
 				(font
@@ -13631,7 +13618,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/a82272da-9ed6-4546-8d28-7ae58c53d04c"
-					(reference "R1")
+					(reference "R201")
 					(unit 1)
 				)
 			)

@@ -2952,7 +2952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ba90fc9-b8f7-45c0-b56c-61e4e2dfc478")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0305"
 			(at 134.62 82.55 0)
 			(effects
 				(font
@@ -3002,7 +3002,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR076")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1ff4f5-521b-4973-ad5f-dcefc56e0f6e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR0306"
 			(at 171.45 100.33 0)
 			(effects
 				(font
@@ -3067,7 +3067,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR031")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -3082,7 +3082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "288f805e-808d-48db-9678-0f315e38755d")
-		(property "Reference" "R9"
+		(property "Reference" "R301"
 			(at 163.83 27.94 0)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "R9")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -3151,7 +3151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d04d105-1f3d-4d8d-8580-b995823235ee")
-		(property "Reference" "C26"
+		(property "Reference" "C307"
 			(at 256.54 27.94 0)
 			(effects
 				(font
@@ -3205,7 +3205,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C26")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -3220,7 +3220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ffc7387-f45c-4b8c-92d9-fdc980f2eda4")
-		(property "Reference" "C20"
+		(property "Reference" "C301"
 			(at 144.78 27.94 0)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C20")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c04b94-1be8-4a76-a352-a5daf540ef28")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0309"
 			(at 267.97 29.21 0)
 			(effects
 				(font
@@ -3340,7 +3340,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR077")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -3355,7 +3355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38409eaa-2aae-414e-aa83-d01f1ce66787")
-		(property "Reference" "C21"
+		(property "Reference" "C303"
 			(at 155.575 27.94 0)
 			(effects
 				(font
@@ -3409,7 +3409,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C21")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a0a3e02-64a2-42cc-8bf6-fb515a683981")
-		(property "Reference" "U4"
+		(property "Reference" "U301"
 			(at 163.83 72.39 0)
 			(effects
 				(font
@@ -3481,7 +3481,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "U4")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "490bfeb1-a200-4fec-b7af-79b82529a1b3")
-		(property "Reference" "C24"
+		(property "Reference" "C305"
 			(at 220.98 27.94 0)
 			(effects
 				(font
@@ -3550,7 +3550,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C24")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3565,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e05bd68-eca7-4527-9117-5b514f0f800e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0302"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -3615,7 +3615,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR029")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -3630,7 +3630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c43989c-0f50-4a1e-bbbb-fcdd1661850c")
-		(property "Reference" "FB1"
+		(property "Reference" "FB301"
 			(at 54.61 20.32 90)
 			(effects
 				(font
@@ -3682,7 +3682,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "FB1")
+					(reference "FB301")
 					(unit 1)
 				)
 			)
@@ -3697,7 +3697,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "610488f5-3c5e-4744-89d8-4e7835c68aed")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0308"
 			(at 208.28 82.55 0)
 			(effects
 				(font
@@ -3747,7 +3747,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR079")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -3762,7 +3762,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62e1fa2f-c9cf-42ff-b98f-5a71beacfb20")
-		(property "Reference" "C22"
+		(property "Reference" "C304"
 			(at 181.61 81.28 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C22")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -3831,7 +3831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e000243-947c-4825-b14f-cf892b5e7a43")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0301"
 			(at 21.59 26.67 0)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR028")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -3896,7 +3896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e1b2f00-6c3a-4771-b6a2-9f772c13f2af")
-		(property "Reference" "R13"
+		(property "Reference" "R305"
 			(at 230.505 39.37 0)
 			(effects
 				(font
@@ -3950,7 +3950,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "R13")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -3966,7 +3966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eba445d-3f4c-440e-b60a-844d27c228e4")
-		(property "Reference" "Q1"
+		(property "Reference" "Q301"
 			(at 40.64 19.05 90)
 			(effects
 				(font
@@ -4024,7 +4024,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "Q1")
+					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -4040,7 +4040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d52f03-6a67-4934-968e-a87f03013464")
-		(property "Reference" "L2"
+		(property "Reference" "L301"
 			(at 212.09 20.32 90)
 			(effects
 				(font
@@ -4092,7 +4092,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "L2")
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -4107,7 +4107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "995da819-2402-45e7-b34b-b9481dc47848")
-		(property "Reference" "TP1"
+		(property "Reference" "TP301"
 			(at 62.865 17.78 0)
 			(effects
 				(font
@@ -4158,7 +4158,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "TP1")
+					(reference "TP301")
 					(unit 1)
 				)
 			)
@@ -4174,7 +4174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9acb7008-2bfd-43c6-882a-3d03632875c2")
-		(property "Reference" "R11"
+		(property "Reference" "R303"
 			(at 194.31 81.2799 0)
 			(effects
 				(font
@@ -4228,7 +4228,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "R11")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -4243,7 +4243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ba4aeb1-799a-493a-90d1-a6b4f2112cc7")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR0307"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -4293,7 +4293,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR032")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -4308,7 +4308,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcf8c0e6-7558-4275-ab9a-f56ad210e788")
-		(property "Reference" "TP5"
+		(property "Reference" "TP304"
 			(at 272.415 40.005 90)
 			(effects
 				(font
@@ -4357,7 +4357,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "TP5")
+					(reference "TP304")
 					(unit 1)
 				)
 			)
@@ -4373,7 +4373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce795369-8384-4c23-af83-3d7c5cb14d2c")
-		(property "Reference" "U6"
+		(property "Reference" "U302"
 			(at 184.15 20.32 0)
 			(effects
 				(font
@@ -4437,7 +4437,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "U6")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -4452,7 +4452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d45aa8ff-4a50-4711-8421-85aa46ceb247")
-		(property "Reference" "F1"
+		(property "Reference" "F301"
 			(at 29.21 22.86 90)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "F1")
+					(reference "F301")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc2d3bda-b159-4f63-8389-d71d03f2cf6f")
-		(property "Reference" "TP3"
+		(property "Reference" "TP302"
 			(at 213.614 74.549 90)
 			(effects
 				(font
@@ -4571,7 +4571,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "TP3")
+					(reference "TP302")
 					(unit 1)
 				)
 			)
@@ -4587,7 +4587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd50c017-6b27-4ceb-9956-2ed55be9b392")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR0303"
 			(at 78.74 29.21 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR030")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -4653,7 +4653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4a8bee0-bf00-41fb-a678-ab923733b52a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0304"
 			(at 134.62 29.21 0)
 			(effects
 				(font
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "#PWR027")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -4718,7 +4718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e617d272-3059-4191-a8d6-12d7a5fd4e03")
-		(property "Reference" "R12"
+		(property "Reference" "R304"
 			(at 230.505 28.575 0)
 			(effects
 				(font
@@ -4772,7 +4772,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "R12")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -4787,7 +4787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed729922-f9e1-42bb-ab53-6ac32310ed56")
-		(property "Reference" "R10"
+		(property "Reference" "R302"
 			(at 163.83 38.735 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "R10")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -4857,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee4cafbe-29f0-4dc1-9ecb-bd1ac5eab0a5")
-		(property "Reference" "D1"
+		(property "Reference" "D301"
 			(at 195.58 90.4874 90)
 			(effects
 				(font
@@ -4911,7 +4911,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "D1")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -4926,7 +4926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2067191-bfd6-451b-9bb4-e28b2c09948a")
-		(property "Reference" "C25"
+		(property "Reference" "C306"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -4980,7 +4980,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C25")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -4995,7 +4995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbc7e579-8ede-49e1-b1e7-b7cba5d13cc9")
-		(property "Reference" "TP4"
+		(property "Reference" "TP303"
 			(at 270.764 21.844 90)
 			(effects
 				(font
@@ -5046,7 +5046,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "TP4")
+					(reference "TP303")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fee7ee6b-da46-467b-adb8-ffddbb7905e8")
-		(property "Reference" "C19"
+		(property "Reference" "C302"
 			(at 151.13 81.28 0)
 			(effects
 				(font
@@ -5115,7 +5115,7 @@
 		(instances
 			(project "PCB USB"
 				(path "/3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2/ec4eefdc-91d1-45af-83cc-d07ba33a5116"
-					(reference "C19")
+					(reference "C302")
 					(unit 1)
 				)
 			)
