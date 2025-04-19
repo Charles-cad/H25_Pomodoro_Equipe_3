@@ -43,23 +43,23 @@ while True:
         # working loop
         while True:
             # update light
-            if (button.rising() == 1):
-                print('rising edge')
-                button.risingTreated()
+            if button.press():
+                print('button pressed')
+                button.treated()
                 
                 led.value(1)
                 
-            elif (button.falling() == 1):
-                print('falling edge')
-                button.fallingTreated()
+            elif button.longPress():
+                print('button longpressed')
+                button.treated()
                 
                 led.value(0)
                 
             # screen logic
             
                 
-            # 100 ms refresh rate    
-            utime.sleep_ms(100)
+            # refresh rate    
+            utime.sleep_ms(200)
     else:
         print(' Communication failed, retrying in 5 seconds')
         utime.sleep_ms(5000)
