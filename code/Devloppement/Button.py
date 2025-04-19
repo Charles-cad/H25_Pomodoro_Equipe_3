@@ -2,7 +2,7 @@ from machine import Pin
 import utime
 
 LONG_PRESS_TIME = 1000
-DEBOUNCE_TIME = 100
+DEBOUNCE_TIME = 50
 
 # button class
 class Button:
