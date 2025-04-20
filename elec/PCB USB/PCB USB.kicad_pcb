@@ -43648,42 +43648,6 @@
 		)
 	)
 	(zone
-		(net 54)
-		(net_name "Net-(R503-Pad1)")
-		(layer "F.Cu")
-		(uuid "170da8d4-cf1c-4586-92b8-698f9e7d965e")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30002)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 91.059358 95.6) (xy 91.059358 95.4) (xy 89.973345 94.86642) (xy 89.549 95.5) (xy 89.973345 96.13358)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 91.059358 95.6) (xy 91.059358 95.4) (xy 89.973345 94.86642) (xy 89.549 95.5) (xy 89.973345 96.13358)
-			)
-		)
-	)
-	(zone
 		(net 15)
 		(net_name "VBUS")
 		(layer "F.Cu")
@@ -43796,6 +43760,44 @@
 				(xy 164.820358 108.569538) (xy 164.813748 108.575579) (xy 164.804802 108.575178) (xy 164.803292 108.574329)
 				(xy 164.56643 108.41718) (xy 164.563149 108.413899) (xy 164.406 108.177037) (xy 164.404281 108.168249)
 				(xy 164.409281 108.16082) (xy 164.410786 108.159973) (xy 164.907213 107.927741) (xy 164.916157 107.927341)
+			)
+		)
+	)
+	(zone
+		(net 52)
+		(net_name "Net-(R501-Pad2)")
+		(layer "F.Cu")
+		(uuid "1baf2b6e-6e44-435f-ba28-2de2b041ed45")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30001)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 88.046567 101.637989) (xy 88.187989 101.496567) (xy 87.797358 100.351341) (xy 87.049293 100.499293)
+				(xy 86.901341 101.247358)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 88.046567 101.637989) (xy 88.187989 101.496567) (xy 87.797358 100.351341) (xy 87.049293 100.499293)
+				(xy 86.901341 101.247358)
 			)
 		)
 	)
@@ -44277,6 +44279,44 @@
 				(xy 172.962429 96.696393) (xy 172.957822 96.696702) (xy 172.804163 96.676346) (xy 172.796412 96.671862)
 				(xy 172.794 96.664747) (xy 172.794 96.435252) (xy 172.797427 96.426979) (xy 172.804161 96.423653)
 				(xy 172.957826 96.403296)
+			)
+		)
+	)
+	(zone
+		(net 53)
+		(net_name "Net-(R502-Pad2)")
+		(layer "F.Cu")
+		(uuid "2c53da4d-3087-422f-90ef-cfe87c37216c")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 88.206881 96.798303) (xy 88.348303 96.656881) (xy 87.812 95.18437) (xy 87.049293 95.499293)
+				(xy 86.73437 96.262)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 88.206881 96.798303) (xy 88.348303 96.656881) (xy 87.812 95.18437) (xy 87.049293 95.499293)
+				(xy 86.73437 96.262)
 			)
 		)
 	)
@@ -45268,6 +45308,42 @@
 				(xy 100.20921 86.411768) (xy 100.052704 86.646935) (xy 100.045268 86.651924) (xy 100.045209 86.651936)
 				(xy 99.766104 86.706505) (xy 99.757327 86.704729) (xy 99.752674 86.698454) (xy 99.604641 86.215868)
 				(xy 99.605491 86.206956) (xy 99.612396 86.201253) (xy 99.615827 86.200739) (xy 99.797339 86.200739)
+			)
+		)
+	)
+	(zone
+		(net 54)
+		(net_name "Net-(R503-Pad1)")
+		(layer "F.Cu")
+		(uuid "4846f7aa-00c1-4c76-a843-8d21f9c2fef8")
+		(name "$teardrop_padvia$")
+		(hatch full 0.1)
+		(priority 30002)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 91.059358 95.6) (xy 91.059358 95.4) (xy 89.973345 94.86642) (xy 89.549 95.5) (xy 89.973345 96.13358)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 91.059358 95.6) (xy 91.059358 95.4) (xy 89.973345 94.86642) (xy 89.549 95.5) (xy 89.973345 96.13358)
 			)
 		)
 	)
@@ -48387,44 +48463,6 @@
 		)
 	)
 	(zone
-		(net 52)
-		(net_name "Net-(R501-Pad2)")
-		(layer "F.Cu")
-		(uuid "a31dff06-7704-46fa-85c2-915a67d46922")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 88.046567 101.637989) (xy 88.187989 101.496567) (xy 87.797358 100.351341) (xy 87.049293 100.499293)
-				(xy 86.901341 101.247358)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 88.046567 101.637989) (xy 88.187989 101.496567) (xy 87.797358 100.351341) (xy 87.049293 100.499293)
-				(xy 86.901341 101.247358)
-			)
-		)
-	)
-	(zone
 		(net 15)
 		(net_name "VBUS")
 		(layer "F.Cu")
@@ -48653,44 +48691,6 @@
 			(pts
 				(xy 101.016862 110.092756) (xy 100.875442 109.951336) (xy 100.793141 110.155) (xy 100.929293 110.775707)
 				(xy 101.08 110.155)
-			)
-		)
-	)
-	(zone
-		(net 53)
-		(net_name "Net-(R502-Pad2)")
-		(layer "F.Cu")
-		(uuid "aed9a62a-d439-4886-978e-00d07988ec54")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 88.206881 96.798303) (xy 88.348303 96.656881) (xy 87.812 95.18437) (xy 87.049293 95.499293)
-				(xy 86.73437 96.262)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 88.206881 96.798303) (xy 88.348303 96.656881) (xy 87.812 95.18437) (xy 87.049293 95.499293)
-				(xy 86.73437 96.262)
 			)
 		)
 	)
