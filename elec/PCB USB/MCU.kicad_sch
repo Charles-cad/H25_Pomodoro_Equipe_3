@@ -3,7 +3,17 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "15b61f16-fb8c-4a02-8876-e57208bae998")
-	(paper "B")
+	(paper "A3")
+	(title_block
+		(title "Hub USB2.0 Pomodoro")
+		(date "2025-04-20")
+		(rev "1.0")
+		(company "C3I")
+		(comment 1 "Jacob Turcotte")
+		(comment 2 "&")
+		(comment 3 "Charles-Ariel Dion")
+		(comment 4 "Par: Équipe 3")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names

@@ -5,10 +5,14 @@
 	(uuid "3ce8e8a6-ebd4-4bdc-aa1f-eee2b03be2d2")
 	(paper "A4")
 	(title_block
-		(title "Exploration de Kicad :P")
-		(date "2025-03-10")
+		(title "Hub USB2.0 Pomodoro")
+		(date "2025-04-20")
 		(rev "1.0")
-		(comment 4 "By : Charles-Ariel Dion")
+		(company "C3I")
+		(comment 1 "Jacob Turcotte")
+		(comment 2 "&")
+		(comment 3 "Charles-Ariel Dion")
+		(comment 4 "Par: Équipe 3")
 	)
 	(lib_symbols)
 	(no_connect
