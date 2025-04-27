@@ -8,7 +8,7 @@ import uasyncio as asyncio
 
 # Classe OledScreen
 from OledScreen import OledScreen
-from Button_Encoder import Button_Encoder
+from Button_EncoderV2 import Button_Encoder
 # Pins utilisees:
 led = Pin(25, Pin.OUT)
 #switch = Pin(14, Pin.IN, Pin.PULL_UP)
@@ -16,7 +16,10 @@ screen_SCL = Pin(17)
 screen_SDA = Pin(16)
 
 # Button object
-button = Button_Encoder(14)
+encoder_button = 14
+encoder_A = 13
+encoder_B = 12
+button = Button_Encoder(encoder_button, encoder_A,encoder_B)
 asyncio.create_task(button.encoder.async_tick())
 
 # Screen object
@@ -75,23 +78,37 @@ async def main():
                 # menus de params:
                 elif  currentScreen == 'all params':
                     screen.showMenu()
-                    if button.press():
-                        button.treated()
+                    if button.scroll(screen.getOrientation()) != 0:
                         lastActiontime = utime.ticks_ms()
-                        screen.incrementCursor()
-                    elif button.longPress():
+                        screen.incrementCursor(button.scroll(screen.getOrientation()))
+                        button.treated()
+                     
+                    elif button.press():
                         button.treated()
                         lastActiontime = utime.ticks_ms()
                         screen.clear()
                         currentScreen = 'param'
+                     
+                    elif button.longPress():
+                        button.treated()
+                        lastActiontime = utime.ticks_ms()
+                        screen.clear()
+                        currentScreen = 'idle'
+                        
+                    
                         
                 # sous-menu de param:        
                 elif currentScreen == 'param':
                     screen.showSubMenu()
-                    if button.press():
-                        button.treated()
+
+                    if (button.scroll(screen.getOrientation()) == -1) | (button.press()):
                         lastActiontime = utime.ticks_ms()
                         screen.incrementSubMenu()
+                        button.treated()
+                    elif button.scroll(screen.getOrientation()) == 1:
+                        lastActiontime = utime.ticks_ms()
+                        screen.decrementSubMenu()
+                        button.treated()   
                     elif button.longPress():
                         button.treated()
                         lastActiontime = utime.ticks_ms()

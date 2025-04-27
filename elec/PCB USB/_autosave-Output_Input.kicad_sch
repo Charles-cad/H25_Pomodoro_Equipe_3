@@ -1216,7 +1216,7 @@
 		)
 		(uuid "35eb6705-425b-4dd3-88ff-6698548d6e25")
 	)
-	(text "GPIO14"
+	(text "GPIO13"
 		(exclude_from_sim no)
 		(at 94.234 71.882 0)
 		(effects
@@ -1242,7 +1242,7 @@
 		)
 		(uuid "5b8a1488-0477-4374-a700-a9dfc048dbbb")
 	)
-	(text "GPIO13"
+	(text "GPIO14"
 		(exclude_from_sim no)
 		(at 94.488 82.55 0)
 		(effects
