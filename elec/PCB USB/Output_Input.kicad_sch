@@ -1203,6 +1203,71 @@
 		)
 		(uuid "11e67b52-a75f-4e56-a747-e1b9edbcb4ab")
 	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 94.488 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 24 7 1)
+			)
+		)
+		(uuid "35eb6705-425b-4dd3-88ff-6698548d6e25")
+	)
+	(text "GPIO13"
+		(exclude_from_sim no)
+		(at 94.234 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 34 86 25 1)
+			)
+		)
+		(uuid "447b78cc-f69d-4e82-8860-47c33759f7f9")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 94.488 74.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 24 7 1)
+			)
+		)
+		(uuid "5b8a1488-0477-4374-a700-a9dfc048dbbb")
+	)
+	(text "GPIO14"
+		(exclude_from_sim no)
+		(at 94.488 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 34 86 25 1)
+			)
+		)
+		(uuid "be905419-f1df-40c0-b632-39044738eac5")
+	)
+	(text "GPIO12"
+		(exclude_from_sim no)
+		(at 94.234 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 34 86 25 1)
+			)
+		)
+		(uuid "c14fcc69-457d-47a8-876c-348a93f6ac9d")
+	)
 	(text "Encodeur"
 		(exclude_from_sim no)
 		(at 79.756 80.518 0)
@@ -1214,6 +1279,19 @@
 			)
 		)
 		(uuid "d177b503-b381-4655-9d7b-ed06d2068f7d")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 94.234 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 24 7 1)
+			)
+		)
+		(uuid "f033a2b4-8b2d-46ce-8be9-c46be89089f3")
 	)
 	(junction
 		(at 172.72 90.17)
